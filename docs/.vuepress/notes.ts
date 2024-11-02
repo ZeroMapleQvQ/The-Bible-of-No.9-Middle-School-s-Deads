@@ -23,17 +23,3 @@ export const zhNotes = defineNotesConfig({
     link: "/",
     notes: [bible],
 });
-
-/* =================== locale: en-US ======================= */
-
-const enDemoNote = defineNoteConfig({
-    dir: "bible",
-    link: "/bible",
-    sidebar: "auto",
-});
-
-export const enNotes = defineNotesConfig({
-    dir: "en/notes",
-    link: "/en/",
-    notes: [enDemoNote],
-});

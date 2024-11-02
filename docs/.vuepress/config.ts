@@ -11,11 +11,6 @@ export default defineUserConfig({
             lang: "zh-CN",
             description: "九中死人の圣经",
         },
-        "/en/": {
-            title: "The Bible of No.9 Middle School&#x27;s Deads",
-            lang: "en-US",
-            description: "The Bible of No.9 Middle School&#x27;s Deads",
-        },
     },
 
     bundler: viteBundler(),
