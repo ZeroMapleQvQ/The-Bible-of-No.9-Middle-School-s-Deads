@@ -5,7 +5,16 @@ import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 const bible = defineNoteConfig({
     dir: "bible",
     link: "/bible/",
-    sidebar: ["Zombie-Rights-Declaration.md"],
+    sidebar: [
+        {
+            text: "反植物联盟",
+            link: "Anti-Plant-Alliance/",
+            items: [
+                "Anti-Plant-Alliance/Before-Zombie-Rights-Declaration.md",
+                "Anti-Plant-Alliance/After-Zombie-Rights-Declaration.md",
+            ],
+        },
+    ],
     // sidebar: "auto",
 });
 
